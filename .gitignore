@@ -5,7 +5,13 @@
 .settings/
 .*.sw*
 .*.un~
-.env
 build/
 nbproject
 vendor
+composer.lock
+.php_cs
+.php_cs.cache
+var/log
+!var/log/.placefolder
+var/tmp
+!var/tmp/.placefolder
