@@ -1,5 +1,4 @@
 <?php
-
 namespace Kumamidori\ExampleSpecForm\Resource\Page;
 
 use BEAR\Resource\ResourceObject;
