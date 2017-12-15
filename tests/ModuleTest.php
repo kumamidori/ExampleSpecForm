@@ -3,8 +3,9 @@ namespace Kumamidori\ExampleSpecForm;
 
 use BEAR\Package\Bootstrap;
 use BEAR\Sunday\Extension\Application\AbstractApp;
+use PHPUnit\Framework\TestCase;
 
-class AppModuleTest extends \PHPUnit_Framework_TestCase
+class ModuleTest extends TestCase
 {
     /**
      * @dataProvider
@@ -12,7 +13,6 @@ class AppModuleTest extends \PHPUnit_Framework_TestCase
     public function contextsProvider()
     {
         return [
-            ['app'],
             ['prod-hal-api-app'],
         ];
     }

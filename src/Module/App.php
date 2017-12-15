@@ -1,5 +1,4 @@
 <?php
-
 namespace Kumamidori\ExampleSpecForm\Module;
 
 use BEAR\Sunday\Extension\Application\AbstractApp;

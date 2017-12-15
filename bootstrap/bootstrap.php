@@ -1,8 +1,4 @@
 <?php
-
-/**
- * @global string $context
- */
 namespace Kumamidori\ExampleSpecForm;
 
 use BEAR\Package\Bootstrap;

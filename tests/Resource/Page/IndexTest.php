@@ -1,5 +1,4 @@
 <?php
-
 namespace Kumamidori\ExampleSpecForm\Resource\Page;
 
 class IndexTest extends \PHPUnit_Framework_TestCase
@@ -27,6 +26,8 @@ class IndexTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @depends testOnGet
+     *
+     * @param mixed $page
      */
     public function testView($page)
     {
